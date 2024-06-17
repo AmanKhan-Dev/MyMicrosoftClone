@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/2+B2QfB6W3cZkfP7G5GjK3i6qDzDjhX+pitE8r" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="assets/icons/microsoft-logo.svg">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <style>
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+           
+            color: rgb(3, 2, 2);
+            padding: 20px;
+            margin-left: 10%;
+            margin-top: 10%;
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar bg-gray-900 text-white">
+        <div class="container mx-auto flex justify-between items-center py-4">
+            <!-- Left Nav -->
+            <nav class="flex">
+                <a href="#"><img src="assets/icons/microsoft-logo1.svg" alt="Microsoft Logo"
+                        class="w-20 h-10"></a>
+                <ul class="flex space-x-6 ml-8">
+                    <!-- Logo -->
+                    <li><a href="#" class="hover:text-gray-300 ">Microsoft 365</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Office</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Windows</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Surface</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Xbox</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Support</a></li>
+                </ul>
+            </nav>
+            <!-- Right Nav -->
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-300">All Microsoft <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li><a href="#" class="hover:text-gray-300">Search <i class="fas fa-search"></i></a></li>
+                    <li><a href="#" class="hover:text-gray-300">Cart <i class="fas fa-shopping-cart"></i></a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="relative">
+        <img id="mainimg" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Surface-Pro-9-Sapphire-shown-in-a-view-with-Surface-Slim-Pen-2-with-blue-background-RWLuZb:VP5-1920x600" class="img-fluid" alt="...">
+        <div class="image-overlay">
+            <h1 class="text-4xl font-semibold ">Get your Surface at these retailers</h1>
+            <p >There are different options available for purchasing Surface devices. You can buy online or contact a local reseller from our list of authorised resellers below.</p>
+        </div>
+    </div>
+
+   <!-- About Products -->
+   <section class="about-products bg-gray-100">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="card about-products-card transform transition-all hover:scale-110 hover:drop-shadow-2xl ">
+        
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Amazon-logo-RE2tZty?wid=380&hei=213&fit=crop"  alt="" class="w-full">
+            <h3 class="mt-4 text-xl font-semibold">Amazon</h3>
+            <p class="mt-2">Express yourself powerfully with a thin, light, and elegant design, faster performance, and up to 11.5 hours battery life.</p>
+            <a href="https://www.amazon.in/stores/page/6C733FAE-049C-422E-BCDD-BFC7943DC366?ingress=2&visitId=8c0a2eb7-370a-4dd9-a6f0-387de30910ad">Shop now <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="card about-products-card transform transition-all hover:scale-110 hover:drop-shadow-2xl ">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Reliance-logo-RE4LRrI?wid=380&hei=213&fit=crop" class="rounded float-end"alt="" class="w-full">
+            <h3 class="mt-4 text-xl font-semibold">Reliance</h3>
+            <p class="mt-2">Looking for a premium laptop at a great price? Look no further than the Surface Laptop 5! Sleek, powerful.</p>
+            <a href="https://www.reliancedigital.in/laptops/c/S101210?searchQuery=microsoft%20laptop:relevance:brand:Microsoft&page=0" class="blue-btn mt-4">Shop now <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="card about-products-card transform transition-all hover:scale-110 hover:drop-shadow-2xl">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Croma-logo?wid=380&hei=213&fit=crop" class="rounded float-end" alt="" class="w-full">
+            <h3 class="mt-4 text-xl font-semibold">Croma</h3>
+            <p class="mt-2">Experience the perfect blend of performance and style with the Surface Laptop 5.this laptop delivers the power and versatility you need.</p>
+            <a href="https://www.croma.com/searchB?q=surface%3Arelevance%3Alower_categories%3A855%3Alower_categories%3A175%3Alower_categories%3A245%3ASG-ManufacturerDetails-Brand%3AMicrosoft&text=surface" class="blue-btn mt-4">Shop now <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="card about-products-card transform transition-all hover:scale-110 hover:drop-shadow-2xl">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Vijay-Sales-logo?wid=380&hei=213&fit=crop"  alt="" class="w-full">
+            <h3 class="mt-4 text-xl font-semibold">Vijay Sales</h3>
+            <p class="mt-2">Looking for a laptop that combines style and performance?, it's the perfect companion for work and play.</p>
+            <a href="https://www.vijaysales.com/bucketdetails/surface-laptop/3046" class="blue-btn mt-4">Shop now <i class="fas fa-chevron-right"></i></a>
+        </div>
+    </div>
+</section>
+<!-- Socialize Section -->
+<section class="socialize bg-gray-100">
+    <div class="container mx-auto flex justify-center items-center py-4">
+        <p class="mr-4">Follow Microsoft</p>
+        <!-- Social icons -->
+        <ul class="flex">
+            <li><a href="#"><img src="assets/icons/facebook.svg" alt="Facebook icon"
+                        class="w-6 h-6"></a></li>
+            <li><a href="#"><img src="assets/icons/twitter.svg" alt="Twitter icon"
+                        class="w-6 h-6"></a></li>
+            <li><a href="#"><img src="assets/icons/youtube.svg" alt="YouTube icon"
+                        class="w-6 h-6"></a></li>
+        </ul>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="customer-footer bg-gray-900 text-white">
+    <div class="container mx-auto ">
+        <!-- Upper Footer -->
+        <div class="upper-footer grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 py-8">
+            <nav>
+                <h3 class="text-xl font-semibold">What's new</h3>
+                <ul class="mt-4">
+                    <li><a href="#" class="hover:text-gray-300">Microsoft 365</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Surface Pro X</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Surface Pro 7</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Surface Laptop 3</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Windows 10 apps</a></li>
+                </ul>
+            </nav>
+
+            <!-- Other Navs -->
+            <nav>
+                <h3 class="text-xl font-semibold">Microsoft Store</h3>
+                <ul class="mt-4">
+                    <li><a href="#" class="hover:text-gray-300">Account profile</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Download Center</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Microsoft Store Support</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Returns</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Order tracking</a></li>
+                </ul>
+            </nav>
+
+            <!-- Education Navs -->
+            <nav>
+                <h3 class="text-xl font-semibold">Education</h3>
+                <ul class="mt-4">
+                    <li><a href="#" class="hover:text-gray-300 ">Microsoft in education</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Office in students</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Office 365 for schools</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Microsoft Azure in education</a></li>
+                </ul>
+            </nav>
+
+            <!-- Enterprise Navs -->
+            <nav>
+                <h3 class="text-xl font-semibold">Enterprise</h3>
+                <ul class="mt-4">
+                    <li><a href="#" class="hover:text-gray-300">Azure</a></li>
+                    <li><a href="#" class="hover:text-gray-300">AppSource</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Automotive</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Government</a></li>
+                    <li><a href="#" class="hover:text-gray-300">HealthCare</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Manufacturing</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Financial Services</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Retail</a></li>
+                </ul>
+            </nav>
+
+            <!-- Developer Navs -->
+            <nav>
+                <h3 class="text-xl font-semibold">Developer</h3>
+                <ul class="mt-4">
+                    <li><a href="#" class="hover:text-gray-300">Microsoft Visual Studio</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Developer Center</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Channel 9</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Office Dev Center</a></li>
+                </ul>
+            </nav>
+
+            <!-- Company Navs -->
+            <nav>
+                <h3 class="text-xl font-semibold">Company</h3>
+                <ul class="mt-4">
+                    <li><a href="#" class="hover:text-gray-300">Careers</a></li>
+                    <li><a href="#" class="hover:text-gray-300">About Microsoft</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Company News</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Privacy at Microsoft</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Investors</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Security</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Lower Footer -->
+        <div class="lower-footer flex justify-between items-center py-4">
+            <!-- Left Side -->
+            <div class="flex items-center">
+                <i class="fas fa-globe-asia text-xl"></i>
+                <p class="ml-2">English (India)</p>
+            </div>
+            <!-- Right Side -->
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-300">Contact Microsoft</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Privacy</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Terms of use</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Trade marks</a></li>
+                    <li><a href="#" class="hover:text-gray-300">About our ads</a></li>
+                    <li><a href="#" class="hover:text-gray-300">© Microsoft 2024</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<!-- JS Scripts -->
+<script src="assets/js/app.js"></script>
+</body>
+</html> 
+   

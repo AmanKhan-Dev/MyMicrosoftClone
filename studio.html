@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surface Laptop Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="assets/icons/microsoft-logo.svg">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="overflow-y-hidden">
+    <header class="navbar bg-gray-900 text-white">
+        <div class="container mx-auto flex justify-between items-center py-4">
+            <!-- Left Nav -->
+            <nav class="flex">
+                <a href="#"><img src="assets/icons/microsoft-logo1.svg" alt="Microsoft Logo" class="w-20 h-10"></a>
+                <ul class="flex space-x-6 ml-8">
+                    <!-- Logo -->
+                    <li><a href="#" class="hover:text-gray-300 ">Microsoft 365</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Office</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Windows</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Surface</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Xbox</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Support</a></li>
+                </ul>
+            </nav>
+            <!-- Right Nav -->
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-300">All Microsoft <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li><a href="#" class="hover:text-gray-300">Search <i class="fas fa-search"></i></a></li>
+                    <li><a href="#" class="hover:text-gray-300">Cart <i class="fas fa-shopping-cart"></i></a></li>
+                    <script>
+                        fetch('index.php')
+                            .then(response => response.text())
+                            .then(data => {
+                                document.getElementById('sig').innerHTML = data;
+                            })
+                            .catch(error => {
+                                console.error('Error:', error);
+                            });
+                    </script>
+                    <li><a href="" class="hover:text-gray-300"><i class="far fa-user-circle"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="bg-gray-900 text-white">
+        <h1 class="text-center text-4xl font-semibold mt-0">Incredibly powerful, infinitely flexible</h1>
+        <br>
+        <p class="text-center">Set your imagination free on Surface Laptop Studio. Boundary-pushing design lets you flex
+            your creative muscle on the sleek, 14.4" 120Hz PixelSense™ Flow touchscreen.2</p>
+    </div>
+    <video controls autoplay name="media">
+        <source src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Laptop_Studio_Autoplay_1920x1156"
+            type="video/mp4">
+    </video>
+
+
+
+</body>
+
+</html>
