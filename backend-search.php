@@ -2,7 +2,7 @@
 <?php
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-$link = mysqli_connect("sql12.freesqldatabase.com", "sql12708516", "7YLcfltmdF", "sql12708516");
+$link = mysqli_connect("mysqlprojectdatabase-amankhan7058int-efa9.d.aivencloud.com", "avnadmin", "AVNS_RY23uWiGqv8kG7CC8Es", "defaultdb");
 // Check connection
 if($link === false){
 die("ERROR: Could not connect. " . mysqli_connect_error());

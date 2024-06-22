@@ -2,10 +2,11 @@
 include('smtp/PHPMailerAutoload.php');
 
 // Database connection details
-$servername = "sql12.freesqldatabase.com";
-$username = "sql12708516";
-$password = "7YLcfltmdF";
-$dbname = "sql12708516";
+$servername = "mysqlprojectdatabase-amankhan7058int-efa9.d.aivencloud.com";
+$username = "avnadmin";
+$password = "AVNS_RY23uWiGqv8kG7CC8Es";
+$dbname = "defaultdb";
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
