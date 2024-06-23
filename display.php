@@ -21,10 +21,10 @@
                 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["username"])) {
                     $username = $_POST["username"];
 
-                    $servername = "sql12.freesqldatabase.com";
-                    $dbusername = "sql12708516";
-                    $password = "7YLcfltmdF";
-                    $dbname = "sql12708516";
+                    $servername = "mysqlprojectdatabase-amankhan7058int-efa9.d.aivencloud.com";
+                    $username = "avnadmin";
+                    $password = "AVNS_RY23uWiGqv8kG7CC8Es";
+                    $dbname = "defaultdb";
 
                     $conn = new mysqli($servername, $dbusername, $password, $dbname);
 

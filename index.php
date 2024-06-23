@@ -78,12 +78,10 @@
             
                     <li><a href="#" class="hover:text-gray-300">Cart <i class="fas fa-shopping-cart"></i></a></li>
                     <?php
-
-$servername = "sql12.freesqldatabase.com";
-$username = "sql12708516";
-$password = "7YLcfltmdF";
-$dbname = "sql12708516";
-
+$servername = "mysqlprojectdatabase-amankhan7058int-efa9.d.aivencloud.com";
+$username = "avnadmin";
+$password = "AVNS_RY23uWiGqv8kG7CC8Es";
+$dbname = "defaultdb";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
