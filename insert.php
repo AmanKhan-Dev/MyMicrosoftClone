@@ -12,10 +12,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Connect to the database
     
-    $servername = "mysqlprojectdatabase-amankhan7058int-efa9.d.aivencloud.com";
-$username = "avnadmin";
-$password = "AVNS_RY23uWiGqv8kG7CC8Es";
-$dbname = "defaultdb";
+    $servername = "sql12.freesqldatabase.com";
+$username = "sql12715829";
+$password = "AbNVgxnj9H";
+$dbname = "sql12715829";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 

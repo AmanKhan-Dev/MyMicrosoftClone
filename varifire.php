@@ -7,10 +7,10 @@ if(isset($_POST['verify'])){
     $email = $_POST['email'];
 
     // Retrieve the OTP from the database for the given email
-    $servername = "mysqlprojectdatabase-amankhan7058int-efa9.d.aivencloud.com";
-    $username = "avnadmin";
-    $password = "AVNS_RY23uWiGqv8kG7CC8Es";
-    $dbname = "defaultdb";
+    $servername = "sql12.freesqldatabase.com";
+    $username = "sql12715829";
+    $password = "AbNVgxnj9H";
+    $dbname = "sql12715829";
     
     $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -39,10 +39,9 @@ if(isset($_POST['verify'])){
         
             // Connect to the database
             $servername = "sql12.freesqldatabase.com";
-    $username = "sql12708516";
-    $password = "7YLcfltmdF";
-    $dbname = "sql12708516";
-        
+            $username = "sql12715829";
+            $password = "AbNVgxnj9H";
+            $dbname = "sql12715829";
             $conn = new mysqli($servername, $username, $password, $dbname);
         
             if ($conn->connect_error) {

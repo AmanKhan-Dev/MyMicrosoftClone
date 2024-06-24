@@ -19,20 +19,19 @@
             <div class="p-6 bg-white border-b border-gray-200">
                 <?php
                 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["username"])) {
-                    $username = $_POST["username"];
+                    $username1 = $_POST["username"];
 
-                    $servername = "mysqlprojectdatabase-amankhan7058int-efa9.d.aivencloud.com";
-                    $username = "avnadmin";
-                    $password = "AVNS_RY23uWiGqv8kG7CC8Es";
-                    $dbname = "defaultdb";
-
-                    $conn = new mysqli($servername, $dbusername, $password, $dbname);
+                    $servername = "sql12.freesqldatabase.com";
+                    $username = "sql12715829";
+                    $password = "AbNVgxnj9H";
+                    $dbname = "sql12715829";
+                    $conn = new mysqli($servername, $username, $password, $dbname);
 
                     if ($conn->connect_error) {
                         die("Connection failed: " . $conn->connect_error);
                     }
 
-                    $sql = "SELECT username,email,password,phone,dob,country,org FROM details WHERE username = '$username'";
+                    $sql = "SELECT username,email,password,phone,dob,country,org FROM details WHERE username = '$username1'";
                     $result = $conn->query($sql);
 
                     if ($result->num_rows > 0) {

@@ -2,12 +2,10 @@
 include('smtp/PHPMailerAutoload.php');
 
 // Database connection details
-$servername = "mysqlprojectdatabase-amankhan7058int-efa9.d.aivencloud.com";
-$username = "avnadmin";
-$password = "AVNS_RY23uWiGqv8kG7CC8Es";
-$dbname = "defaultdb";
-
-
+$servername = "sql12.freesqldatabase.com";
+$username = "sql12715829";
+$password = "AbNVgxnj9H";
+$dbname = "sql12715829";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -43,9 +41,9 @@ function smtp_mailer($conn, $to, $otp, $subject, $msg) {
     $mail->IsHTML(true);
     $mail->CharSet = 'UTF-8';
     // $mail->SMTPDebug = 2; 
-    $mail->Username = "mysqlccount13273@gmail.com";
-    $mail->Password = "dfnf zkxp femf advm";
-    $mail->SetFrom("mysqlccount13273@gmail.com");
+    $mail->Username = "amankhan7058int@gmail.com";
+    $mail->Password = "gfbk efuf rwbu rhze";
+    $mail->SetFrom("amankhan7058int@gmail.com");
     $mail->Subject = $subject;
     $mail->Body = $msg;
     $mail->AddAddress($to);

@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Check if email and password are set and not empty
     if (isset($_POST["email"]) && isset($_POST["password"]) && !empty($_POST["email"]) && !empty($_POST["password"])) {
         // Check if email and password match in the database (replace database connection details)
-        $con = new mysqli("mysqlprojectdatabase-amankhan7058int-efa9.d.aivencloud.com", "avnadmin", "AVNS_RY23uWiGqv8kG7CC8Es", "defaultdb");
+        $con = new mysqli("sql12.freesqldatabase.com", "sql12715829", "AbNVgxnj9H", "sql12715829");
 
         if ($con->connect_error) {
             die("Connection failed: " . $con->connect_error);
